@@ -1,0 +1,6 @@
+def union_sorted_arrays(n, k): 
+    union_set = set(n).union(set(k))
+    return sorted(union_set)
+n = [1,2,3,4,5,6]
+k = [1,2,3,6,7,8,9]
+print(union_sorted_arrays(n, k))
